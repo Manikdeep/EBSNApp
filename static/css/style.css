@@ -1,0 +1,247 @@
+html, body { 
+    background: url(../img/3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.menuItems{
+    max-height: 200px;
+    overflow: scroll;
+}
+
+div.text-userinfo{
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 15px;
+    text-shadow: 0 0 2px black;
+}
+.container h1{
+    text-shadow: 0 0 2px black;
+}
+.event-section p span{
+    font-weight: normal;
+}
+.event-section p{
+    font-weight: bold;
+}    
+.event-section{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    text-shadow: 0 0 2px black;
+    padding: 20px;
+    flex: 0 0 30%;
+    text-align: left;
+}
+
+div.events-layout{
+    padding: 20px 10px 20px 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #888;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #555;
+    justify-content: top;
+    align-items: top;
+    /* line-height: auto; */
+}
+h2 {
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #555;
+    /* line-height: auto; */
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: #555;
+    /* line-height: 30px; */
+}
+
+.medium-paragraph {
+    font-size: 17px;
+    /* line-height: 32px; */
+}
+
+.colored-text {
+    color: #9b59b6;
+}
+
+::-moz-selection {
+    background: #9b59b6;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #9b59b6;
+    color: #fff;
+    text-shadow: none;
+}
+
+.btn-link-1 {
+    display: inline-block;
+    /* height: 50px; */
+    margin: 0 5px;
+    padding: 0 28px;
+    background: #301546d1;
+    background: rgba(48, 21, 70, 0.82);
+    border: 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #fff;
+    border-radius: 4px;
+    transition: all .3s;
+    opacity: 0.9;
+}
+
+.btn-link-1:hover,
+.btn-link-1:focus,
+.btn-link-1:active,
+.btn-link-1:active:focus,
+.btn-link-1.btn-primary:not(:disabled):not(.disabled):active,
+.btn-link-1.btn-primary:not(:disabled):not(.disabled):active:focus {
+    background: #532863;
+    background: rgba(83, 40, 99);
+    outline: 0;
+    color: #fff;
+    box-shadow: none;
+}
+
+.dropdown-toggle {
+    display: inline-block;
+    width: 200px;
+    margin: 0 5px;
+    padding: 0 30px;
+    background: #301546d1;
+    background: rgba(48, 21, 70, 0.82);
+    border: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #fff;
+    border-radius: 4px;
+    transition: all .3s;
+    opacity: 0.9;
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:active,
+.dropdown-toggle:focus,
+.dropdown-toggle:active:focus
+.dropdown-toggle.btn-secondary:disabled:active,
+.dropdown-toggle.btn-secondary:disabled:active:focus
+{
+    background-color: #532863 !important;
+    background-color: rgba(83, 40, 99) !important;
+    outline: 0;
+    color: #fff;
+    box-shadow: none;
+}
+
+/***** Top menu *****/
+
+.navbar {
+    background: #444;
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    -ms-transition: all .6s;
+    transition: all .6s;
+    backface-visibility: hidden;
+    z-index: -1;
+}
+
+.navbar.navbar-no-bg {
+    background: #444;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-dark .navbar-nav {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+    border: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #fff;
+    outline: 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar-brand {
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+    border: 0;
+    font-family: 'Segoe Print', sans-serif;
+    /* width: 136px;
+    background: url(../img/1.jpg) left center no-repeat;
+    border: 0;
+    text-indent: -99999px; */
+}
+
+
+/***** Top content *****/
+
+.top-content {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-content .text {
+    color: #fff;
+}
+
+.top-content .text h1 {
+    margin-top: 25px;
+    color: #fff;
+}
+
+.top-content .description {
+    margin: 30px 0 10px 0;
+}
+
+.top-content .description p {
+    opacity: 0.8;
+}
+
+.top-content .top-big-link {
+    margin-top: 45px;
+}
